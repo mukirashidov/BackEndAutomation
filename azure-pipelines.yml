@@ -13,6 +13,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  demands: Limit -equals DisAbleParallel
 strategy:
   matrix:
     Python27:
