@@ -16,10 +16,10 @@ Please follow below instructions in order to run the framework and all the test 
   1. Clone the repository to your local machine: => git clone https://github.com/mukirashidov/BackEndAutomation.git         
   2. Navigate to the cloned repository through your terminal 
   3. Execute the following commands (unless those packages are already installed and available on your machine):
-              pip install behave
-              pip install allure-behave
-              pip install requests
-              brew install allure
+              * pip install behave
+              * pip install allure-behave
+              * pip install requests
+              * brew install allure
   4. To run the whole framework and generate Allure Results folder, execute the following command in your terminal from the project repo
               behave -f allure_behave.formatter:AllureFormatter -o AllureResults
   5. To run Allure server (has to be ran from the project repository/folder or the absolute path needs to be provided for the AllureResults folder that is             
